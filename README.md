@@ -23,9 +23,8 @@ import pyrecbot.start as bot
 # Record one action
 bot.record(1)
 
-# Replay the recorded action 5 times
-bot.replay(5)
-💡 record(n) will record n sets of actions. You can record more by increasing the number.
+
+💡 record(1) will record  sets of actions. You can record more by increasing the number.
 
 🛠 Use Cases
 Automate repetitive desktop workflows
