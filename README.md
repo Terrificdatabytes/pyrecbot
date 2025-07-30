@@ -19,12 +19,8 @@ py -m pip install pyrecbot
 Use the following Python code to record and replay actions:
 
 import pyrecbot.start as bot
-
-# Record one action
-bot.record(1)
-
-
-💡 record(1) will record  sets of actions. You can record more by increasing the number.
+bot.()
+💡 pyrecbot.start() will record  sets of actions. You can record more by increasing the number.
 
 🛠 Use Cases
 Automate repetitive desktop workflows
