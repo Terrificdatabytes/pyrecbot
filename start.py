@@ -1,0 +1,2 @@
+import pyrecbot
+pyrecbot.record()

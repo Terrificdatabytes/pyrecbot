@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyrecbot"
+version = "0.1.6"
+description = "A Python automation module using pynput and pyautogui"
+authors = [
+    { name = "TDB", email = "terrificdatabytes@gmail.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "pyautogui",
+    "pynput"
+]
+
+[tool.hatch.build]
+include = [
+    "pyrecbot/**",
+    "LICENSE/license.txt",
+    "README.md"
+]

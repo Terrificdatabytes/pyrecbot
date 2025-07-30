@@ -1,49 +1,14 @@
-🤖 pyrecbot
-pyrecbot is a cross-platform Python automation tool designed to record and replay mouse and keyboard actions. Whether you're on Windows, Linux, or macOS, pyrecbot makes it easy to automate repetitive tasks using simple Python code.
+Pyrecbot 0.1.5
 
-✨ Features
-🖱️ Record mouse and keyboard actions
+This module is used to automate keyboard and mouse functions.
 
-🔁 Replay recorded actions multiple times
+Basic Functions
 
-💻 Compatible with Windows, Linux, and macOS
+**start the bot's action recorder**
 
-⚙️ Ideal for automating repetitive desktop tasks
+syntax:
 
-🐍 Simple and intuitive Python API
+pyrecbot.start()
 
-📦 Installation
-Install pyrecbot using pip:
-py -m pip install pyrecbot
-🚀 Quick Start
-Use the following Python code to record and replay actions:
+to stop recording **press ctrl+b** while recording
 
-import pyrecbot.start as bot
-bot.()
-💡 pyrecbot.start() will record  sets of actions. You can record more by increasing the number.
-
-🛠 Use Cases
-Automate repetitive desktop workflows
-
-GUI-based testing and simulations
-
-Keyboard/mouse macro creation
-
-Speed up manual processes in Python scripts
-
-📁 Project Structure
-pyrecbot/
-├── start.py       # Main logic for recording and replaying
-├── __init__.py    # Module initializer
-├── utils/         # Helper functions (if available)
-📃 License
-This project is licensed under the MIT License.
-See the LICENSE file for full terms.
-
-🤝 Contributing
-Found a bug? Have a feature idea?
-Issues and pull requests are welcome!
-
-👉 Visit: https://github.com/terrificdatabytes/pyrecbot/issues
-
-Built with ❤️ by @terrificdatabytes
